@@ -13,7 +13,7 @@ function App() {
         <Route path="board" element={<Admin />} />
         <Route path="map" element={<CreateMap />} />
       </Route>
-      <Route path="login" element={<Login />} />
+      <Route path="log/in" element={<Login />} />
     </Routes>
   );
 }
